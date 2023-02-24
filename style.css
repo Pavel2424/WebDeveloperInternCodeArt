@@ -1,0 +1,662 @@
+/*==========FONT=========*/
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: inline-block;
+}
+
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*==============Main&Header===========*/
+.header {
+  margin-bottom: 20px;
+  background-image: url("./images2/header.png");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.header__title {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header__caption {
+  font-size: xx-large;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: #d43b4a;
+}
+
+.header__p {
+  font-size: x-large;
+}
+
+/*=========== SECTION ONE ================*/
+.sectionone__second {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.sectionone__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sectionone__image1 {
+  border: 1px solid #f1f0f5;
+  border-radius: 20px;
+}
+
+.sectionone__image2 {
+  background: rgba(230, 236, 224, 0.5);
+  border-radius: 15px;
+}
+
+.h1__design {
+  background: #f0d8a8;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.h1__design2 {
+  background: #549663;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.sectionone__align {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button__align {
+  position: relative;
+  left: 100px;
+  margin-bottom: 10px;
+}
+
+.button__align2 {
+  position: relative;
+  left: 90px;
+  margin-bottom: 20px;
+}
+
+.button__design {
+  background-color: #ffd800;
+  border: none;
+  border-radius: 15px;
+  padding: 12px 0px;
+  width: 200px;
+  height: 73px;
+  cursor: pointer;
+}
+
+.sectionone__caption {
+  margin-bottom: 20px;
+}
+
+.after__section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+/*=========== SECTION TWO ================*/
+.section__two {
+  margin-bottom: 30px;
+}
+
+.sectiontwo__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sectiontwo__h1 {
+  margin-bottom: 20px;
+}
+
+.sectiontwo__green {
+  background-color: #549663;
+  text-align: center;
+  height: 200px;
+  position: relative;
+}
+
+.sectiongreen__h1 {
+  color: white;
+  position: relative;
+  top: 65px;
+}
+
+.sectiontwo__icon {
+  position: absolute;
+  bottom: -25px;
+  font-size: 2em;
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 5px 7px;
+  background: #f1f0f5;
+}
+
+.sectiontwo__background {
+  background-color: #f1f0f5;
+}
+
+.sectiontwo__experience {
+  /* background-color: #F1F0F5; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 55px 40px;
+}
+
+.sectiontwo__experience h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.width__half {
+  width: 50%;
+}
+
+.sectiontwo__bigbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button__design2 {
+  background: #ffd800;
+  border: none;
+  border-radius: 15px;
+  width: 600px;
+  height: 80px;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.sectiontwo__testimonials {
+  display: flex;
+  padding: 50px 30px 20px;
+  gap: 20px;
+}
+
+.sectiontwo__testimonialone {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+  padding: 50px 30px 20px;
+}
+
+.sectiontwo__testimonialone p {
+  padding-left: 68px;
+}
+
+.sectiontwo__quote {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 50px;
+  opacity: 0.2;
+}
+
+.sectiontwo__rating {
+  position: absolute;
+  right: 10px;
+  color: yellow;
+}
+
+/*=========== SECTION THREE ================*/
+.section__three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-bottom: 25px;
+}
+
+.sectionthree__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.sectionthree__ingredient {
+  background: #f7f7f7;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.sectionthree__list {
+  margin-left: 40px;
+}
+
+.sectionthree__list li {
+  margin-bottom: 20px;
+}
+
+/*=========== SECTION FOUR ================*/
+.section__four {
+  margin-bottom: 30px;
+}
+
+.sectionfour__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sectionfour__green {
+  background-color: #549663;
+  text-align: center;
+  height: 140px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.sectionfourgreen__h1 {
+  color: white;
+  position: relative;
+  top: 55px;
+}
+
+.sectionfour__second {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.sectionfourbutton__design {
+  background-color: #ffd800;
+  border: none;
+  border-radius: 15px;
+  padding: 12px 0px;
+  width: 200px;
+  height: 73px;
+  cursor: pointer;
+}
+
+.sectionfourbutton__align {
+  position: relative;
+  left: 7px;
+  margin-bottom: 10px;
+}
+
+.sectionfour__testimonials {
+  display: flex;
+  padding: 50px 30px 20px;
+  gap: 20px;
+  margin: 60px;
+}
+
+.sectionfour__testimonialone {
+  background-color: #f1f0f5;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+  padding: 50px 30px 35px;
+}
+
+.sectionfour__positioning {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.sectionfour__paragraph {
+  margin: 0px 115px;
+  margin-bottom: 20px;
+}
+
+.sectionfourgreen__zone {
+  background-image: url("./images2/Property\ 1=Symbol\,\ Property\ 2=Beige.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #549663;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  gap: 40px;
+  margin: 20px 80px;
+  padding: 40px;
+}
+
+.sectionfourzone__title h1 {
+  color: white;
+  text-align: center;
+}
+
+.sectionfourzone__title {
+  display: flex;
+  align-items: center;
+}
+
+.sectionfourzone__paragraph {
+  flex: 1;
+}
+
+/*=========== SECTION FIVE ================*/
+
+.section__five {
+  background: #f1f0f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sectionfive__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionfive__features {
+  display: flex;
+  justify-content: center;
+}
+
+.sectionfive__features img {
+  margin: 0px 30px;
+}
+
+.sectionfiveleft__check {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+/*=========== SECTION SIX ================*/
+.section__six {
+  background-color: #f0d8a8;
+  padding: 30px;
+}
+
+.sectionsix__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sectionsix__rows {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sectionsix__row1 {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.sectionsix__row1 h1 {
+  margin-bottom: 20px;
+}
+
+.sectionsix__icon {
+  color: #f0d8a8;
+  border: 7px solid;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.sectionsix__rows2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.sectionsix__row2 {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 38px;
+}
+
+.sectionsix__row2 h1 {
+  margin-bottom: 20px;
+}
+
+/*=========== SECTION SEVEN ================*/
+.section__seven {
+  margin-bottom: 20px;
+}
+
+.sectionseven__title {
+  text-align: center;
+}
+
+.sectionseven__second {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+/*=========== SECTION EIGHT ================*/
+.section__eight {
+  background-color: #f1f0f5;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/*=========== SECTION NINE ================*/
+.sectionnine__title {
+  text-align: center;
+}
+
+.sectionnine__second {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+/*=========== SECTION TEN ================*/
+.section__ten {
+  background-color: #f1f0f5;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.sectionten__title {
+  text-align: center;
+}
+
+.sectionten__questions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionten__question {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sectiontenquestion__green {
+  background-color: #549663;
+  color: white;
+  position: relative;
+  padding: 15px 23px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.sectionten__answer {
+  background: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.sectionten__arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #666 transparent transparent transparent;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrow.up {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.sectionten__answer {
+  display: none;
+  padding: 10px;
+}
+
+.active .sectionten__answer {
+  display: block;
+}
+.active .sectionten__arrow {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+/*=========== FOOTER SECTION ================*/
+
+.sectionfooter__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.sectionfooter__title2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+.sectionfooter__paragraph {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.sectionfooter__final {
+  border: 1px solid #333333;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 30px 50px;
+}
+
+/*=========== RESPONSIVE ================*/
+
+@media screen and (max-width: 320px) {
+
+  .header__title {
+    top: 100px;
+  }
+
+  .section__one {
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+
+
+  .section__two {
+    display: inline-block;
+  }
+
+  .sectiontwo__background {
+    padding: 100px;
+  }
+
+  .sectiontwo__experience {
+    display: inline-block;
+  }
+
+  .section__three {
+    display: inline-block;
+  }
+
+  .sectionthree__image {
+    display: flex;
+    align-items: center;
+  }
+
+  .section__four {
+    display: inline-block;
+  }
+
+  .sectionfour__second {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .section__six {
+    display: inline-block;
+    padding: 100px;
+  }
+
+  .section__seven {
+    display: inline-block;
+  }
+
+  .section__eight {
+    display: inline-block;
+  }
+
+  .section__nine {
+    display: inline-block;
+  }
+
+  .footer__section {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sectiontwo__experience {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sectiontwo__experience {
+    display: inline-block;
+  }
+}
